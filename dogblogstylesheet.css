@@ -1,0 +1,122 @@
+/* =====================   CSS RESET SECTION ==== */
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0b2 | 201101 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output,
+ruby, section, summary, time, mark,
+audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+img{vertical-align: top;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav,
+section, canvas, main { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+html, body{  width: 100%;  height: 100%;  }
+
+
+/*---------------------- HEADER ------------------------*/
+    h1{ color: #B9D0C8;
+        background-color: white;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 5rem;
+        text-align: center;
+        font-weight:bolder;
+        font-family: Calibri, Helvetica, sans-serif;
+    }
+
+
+
+/*navigation*/
+    .topNav ul{
+        display: flex;
+        justify-content: space-around;
+        background-color: #ABD1DA;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .topNav a{
+        text-decoration: none;
+        color: white;
+        font-family: Calibri, Helvetica, sans-serif;
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+
+    .topNav ul a:hover{
+        background-color: white;
+        color: #ABD1DA;
+    } /*hover over navigation's for them to change color*/
+
+    .banner{
+        height: 480px;
+        background-image: url("../images/dogbanner.jpg");
+        background-size: cover;
+        background-position: center -38px;
+}
+/*---------------------- MAIN ------------------------*/
+    .mainContent{
+        display: flex;
+        justify-content: center;
+    }
+
+    .readMorePar{
+        text-align: center;
+        margin:-128px 0 73px;
+    }
+
+    .readMoreBtn{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 2rem;
+        text-align: center;
+        width: 200px;
+        color: #fff;
+        font-family: Calibri, Helvetica, sans-serif;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: rgba(100, 100, 100, .6);
+    }
+
+    .readMoreBtn:hover{
+        color: #ABD1DA;
+        border-color: #ABD1DA;
+        }
+
+
+
+
+
+
+/*---------------------- FOOTER ------------------------*/
+
+
+.footer{
+    font-family: Calibri, Helvetica, sans-serif;
+    font-style: italic;
+    color: #FFF;
+    background-color: #ABD1DA;
+    padding: 20px;
+}
+
+.backTop a{
+    text-decoration: none;
+    font-family: Calibri, Helvetica, sans-serif;
+    color: #FFF;
+    background-color: #ABD1DA;
+    display: block;
+}
+/*---------------------- ------------------------*/
+/*---------------------- ------------------------*/
+/*---------------------- ------------------------*/
+/*---------------------- ------------------------*/
+/*---------------------- ------------------------*/
+
+
+
+
+/*duck egg blue: #B9D0C8* #ABD1DA/
